@@ -13,6 +13,24 @@
 		C30D3E3E27E1AF11007D355E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30D3E3C27E1AF11007D355E /* Main.storyboard */; };
 		C30D3E4027E1AF12007D355E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C30D3E3F27E1AF12007D355E /* Assets.xcassets */; };
 		C30D3E4327E1AF12007D355E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30D3E4127E1AF12007D355E /* LaunchScreen.storyboard */; };
+		C30D3E4D27E1AFC4007D355E /* MovieElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E4C27E1AFC4007D355E /* MovieElement.swift */; };
+		C30D3E4F27E1AFF0007D355E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E4E27E1AFF0007D355E /* NetworkManager.swift */; };
+		C30D3E5227E1B11D007D355E /* GoNetError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E5127E1B11D007D355E /* GoNetError.swift */; };
+		C30D3E5527E1B27D007D355E /* GoNetTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E5427E1B27D007D355E /* GoNetTabBarController.swift */; };
+		C30D3E5727E1B364007D355E /* GoNetMovieListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E5627E1B364007D355E /* GoNetMovieListVC.swift */; };
+		C30D3E5B27E1B4DF007D355E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E5A27E1B4DF007D355E /* MovieCell.swift */; };
+		C30D3E5D27E1B571007D355E /* GoNetTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E5C27E1B571007D355E /* GoNetTitleLabel.swift */; };
+		C30D3E6027E1B9A2007D355E /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E5F27E1B9A2007D355E /* Color+Hex.swift */; };
+		C30D3E6227E1BA40007D355E /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E6127E1BA40007D355E /* UIViewController+Ext.swift */; };
+		C30D3E6427E1BA7F007D355E /* GoNetAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E6327E1BA7F007D355E /* GoNetAlertVC.swift */; };
+		C30D3E6627E1BB0C007D355E /* GoNetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E6527E1BB0B007D355E /* GoNetButton.swift */; };
+		C30D3E6827E1BB4B007D355E /* GoNetBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E6727E1BB4B007D355E /* GoNetBodyLabel.swift */; };
+		C30D3E6A27E1BB89007D355E /* GoNetAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E6927E1BB89007D355E /* GoNetAlertContainerView.swift */; };
+		C30D3E6C27E1BC5D007D355E /* GoNetImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E6B27E1BC5D007D355E /* GoNetImageView.swift */; };
+		C30D3E6E27E1BCC4007D355E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E6D27E1BCC4007D355E /* Constants.swift */; };
+		C30D3E7127E1CCE7007D355E /* GoNetMovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E6F27E1CCE7007D355E /* GoNetMovieDetailVC.swift */; };
+		C30D3E7427E1D971007D355E /* GoNetFavoriteListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E7327E1D971007D355E /* GoNetFavoriteListVC.swift */; };
+		C30D3E7627E1DB4F007D355E /* PersistentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30D3E7527E1DB4F007D355E /* PersistentManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +42,24 @@
 		C30D3E3F27E1AF12007D355E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C30D3E4227E1AF12007D355E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C30D3E4427E1AF12007D355E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30D3E4C27E1AFC4007D355E /* MovieElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieElement.swift; sourceTree = "<group>"; };
+		C30D3E4E27E1AFF0007D355E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C30D3E5127E1B11D007D355E /* GoNetError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNetError.swift; sourceTree = "<group>"; };
+		C30D3E5427E1B27D007D355E /* GoNetTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNetTabBarController.swift; sourceTree = "<group>"; };
+		C30D3E5627E1B364007D355E /* GoNetMovieListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNetMovieListVC.swift; sourceTree = "<group>"; };
+		C30D3E5A27E1B4DF007D355E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		C30D3E5C27E1B571007D355E /* GoNetTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNetTitleLabel.swift; sourceTree = "<group>"; };
+		C30D3E5F27E1B9A2007D355E /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		C30D3E6127E1BA40007D355E /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		C30D3E6327E1BA7F007D355E /* GoNetAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNetAlertVC.swift; sourceTree = "<group>"; };
+		C30D3E6527E1BB0B007D355E /* GoNetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNetButton.swift; sourceTree = "<group>"; };
+		C30D3E6727E1BB4B007D355E /* GoNetBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNetBodyLabel.swift; sourceTree = "<group>"; };
+		C30D3E6927E1BB89007D355E /* GoNetAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNetAlertContainerView.swift; sourceTree = "<group>"; };
+		C30D3E6B27E1BC5D007D355E /* GoNetImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNetImageView.swift; sourceTree = "<group>"; };
+		C30D3E6D27E1BCC4007D355E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C30D3E6F27E1CCE7007D355E /* GoNetMovieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNetMovieDetailVC.swift; sourceTree = "<group>"; };
+		C30D3E7327E1D971007D355E /* GoNetFavoriteListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNetFavoriteListVC.swift; sourceTree = "<group>"; };
+		C30D3E7527E1DB4F007D355E /* PersistentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,12 @@
 		C30D3E3527E1AF11007D355E /* GoNetSwift */ = {
 			isa = PBXGroup;
 			children = (
+				C30D3E5E27E1B988007D355E /* Helpers */,
+				C30D3E5827E1B4BB007D355E /* CustomViews */,
+				C30D3E5327E1B260007D355E /* ViewControllers */,
+				C30D3E5027E1B10D007D355E /* Utilities */,
+				C30D3E4B27E1AF8D007D355E /* Model */,
+				C30D3E4A27E1AF85007D355E /* Managers */,
 				C30D3E3627E1AF11007D355E /* AppDelegate.swift */,
 				C30D3E3827E1AF11007D355E /* SceneDelegate.swift */,
 				C30D3E3A27E1AF11007D355E /* ViewController.swift */,
@@ -65,6 +107,74 @@
 				C30D3E4427E1AF12007D355E /* Info.plist */,
 			);
 			path = GoNetSwift;
+			sourceTree = "<group>";
+		};
+		C30D3E4A27E1AF85007D355E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C30D3E4E27E1AFF0007D355E /* NetworkManager.swift */,
+				C30D3E7527E1DB4F007D355E /* PersistentManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C30D3E4B27E1AF8D007D355E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C30D3E4C27E1AFC4007D355E /* MovieElement.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C30D3E5027E1B10D007D355E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C30D3E5127E1B11D007D355E /* GoNetError.swift */,
+				C30D3E6D27E1BCC4007D355E /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C30D3E5327E1B260007D355E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C30D3E5427E1B27D007D355E /* GoNetTabBarController.swift */,
+				C30D3E5627E1B364007D355E /* GoNetMovieListVC.swift */,
+				C30D3E6F27E1CCE7007D355E /* GoNetMovieDetailVC.swift */,
+				C30D3E7327E1D971007D355E /* GoNetFavoriteListVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C30D3E5827E1B4BB007D355E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				C30D3E5927E1B4C4007D355E /* Cells */,
+				C30D3E5C27E1B571007D355E /* GoNetTitleLabel.swift */,
+				C30D3E6327E1BA7F007D355E /* GoNetAlertVC.swift */,
+				C30D3E6527E1BB0B007D355E /* GoNetButton.swift */,
+				C30D3E6727E1BB4B007D355E /* GoNetBodyLabel.swift */,
+				C30D3E6927E1BB89007D355E /* GoNetAlertContainerView.swift */,
+				C30D3E6B27E1BC5D007D355E /* GoNetImageView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		C30D3E5927E1B4C4007D355E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C30D3E5A27E1B4DF007D355E /* MovieCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C30D3E5E27E1B988007D355E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C30D3E5F27E1B9A2007D355E /* Color+Hex.swift */,
+				C30D3E6127E1BA40007D355E /* UIViewController+Ext.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +248,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30D3E5227E1B11D007D355E /* GoNetError.swift in Sources */,
+				C30D3E6827E1BB4B007D355E /* GoNetBodyLabel.swift in Sources */,
+				C30D3E6427E1BA7F007D355E /* GoNetAlertVC.swift in Sources */,
+				C30D3E5527E1B27D007D355E /* GoNetTabBarController.swift in Sources */,
+				C30D3E7627E1DB4F007D355E /* PersistentManager.swift in Sources */,
+				C30D3E6C27E1BC5D007D355E /* GoNetImageView.swift in Sources */,
+				C30D3E6227E1BA40007D355E /* UIViewController+Ext.swift in Sources */,
+				C30D3E5B27E1B4DF007D355E /* MovieCell.swift in Sources */,
 				C30D3E3B27E1AF11007D355E /* ViewController.swift in Sources */,
+				C30D3E5727E1B364007D355E /* GoNetMovieListVC.swift in Sources */,
+				C30D3E6627E1BB0C007D355E /* GoNetButton.swift in Sources */,
 				C30D3E3727E1AF11007D355E /* AppDelegate.swift in Sources */,
+				C30D3E4F27E1AFF0007D355E /* NetworkManager.swift in Sources */,
+				C30D3E6A27E1BB89007D355E /* GoNetAlertContainerView.swift in Sources */,
+				C30D3E5D27E1B571007D355E /* GoNetTitleLabel.swift in Sources */,
+				C30D3E7427E1D971007D355E /* GoNetFavoriteListVC.swift in Sources */,
 				C30D3E3927E1AF11007D355E /* SceneDelegate.swift in Sources */,
+				C30D3E6027E1B9A2007D355E /* Color+Hex.swift in Sources */,
+				C30D3E7127E1CCE7007D355E /* GoNetMovieDetailVC.swift in Sources */,
+				C30D3E4D27E1AFC4007D355E /* MovieElement.swift in Sources */,
+				C30D3E6E27E1BCC4007D355E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
