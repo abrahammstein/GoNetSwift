@@ -1,6 +1,9 @@
 # GoNetSwift
 This is the code challenge for GoNet
 
+NOTE: Project was only tested using iPhone Pro or Pro Max.
+
+
 - This project is not using any third party libraries, however I am using an extension for Color in order to add colors with hex values
 and you can find that code in the class Color+Hex.swift.
 
@@ -17,7 +20,7 @@ so both swiping to add as a FAVORITE and swiping to DELETE are from left to righ
 
 EXTRA NOTES:
 1. At first I was gonna use SwiftUI but then I ended up changin it to only Swift.
-2. The project has reusable custom views that I wanted to show some skills of, I could've just use Storyboards but that would've been too simple.
+2. The project has reusable custom views that I wanted to show.
 
 WHAT COULD BE IMPROVED?
 1. Adding a SQLLite Database or Firebase
