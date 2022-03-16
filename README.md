@@ -1,7 +1,7 @@
 # GoNetSwift
 This is the code challenge for GoNet
 
-NOTE: Project was only tested using iPhone Pro or Pro Max.
+NOTE: Project was only tested using **iPhone Pro or Pro Max**.
 
 
 - This project is not using any third party libraries, however I am using an extension for Color in order to add colors with hex values
