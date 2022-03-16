@@ -110,7 +110,7 @@ class GoNetMovieDetailVC: UIViewController {
         self.view.addSubview(imdbLabel)
         let padding: CGFloat = 8
         let leadingTrailingPadding: CGFloat = 20
-        let height: CGFloat = 300
+        let height: CGFloat = 200
         
         NSLayoutConstraint.activate([
             movieImageView.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 150),
@@ -121,12 +121,13 @@ class GoNetMovieDetailVC: UIViewController {
             summaryLabel.topAnchor.constraint(equalTo: movieImageView.bottomAnchor, constant: 8),
             summaryLabel.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: padding),
             summaryLabel.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -padding),
-            summaryLabel.heightAnchor.constraint(equalToConstant: 200),
+            summaryLabel.heightAnchor.constraint(equalToConstant: 100),
             
             imdbLabel.topAnchor.constraint(equalTo: summaryLabel.bottomAnchor, constant: 8),
             imdbLabel.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: padding),
             imdbLabel.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -padding),
-            imdbLabel.heightAnchor.constraint(equalToConstant: 100)
+            imdbLabel.heightAnchor.constraint(equalToConstant: 100),
+            imdbLabel.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant:-20)
         ])
     }
 
