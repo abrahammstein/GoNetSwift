@@ -58,7 +58,6 @@ class GoNetMovieListVC: UIViewController {
     func getMoviesData() {
         NetworkManager.shared.getMovies() { [weak self] result in
             guard let self = self else { return }
-//            self.dismissLoadingView()
             
             switch result {
             case .success(let movies):
@@ -66,8 +65,6 @@ class GoNetMovieListVC: UIViewController {
             case .failure(let error):
                 self.presentGoNetAlertOnMainThread(title: "Bad Stuff Happened", message: error.rawValue, buttonTitle: "Ok")
             }
-            
-//            self.isLoadingMoreProducts = false
         }
     }
     
