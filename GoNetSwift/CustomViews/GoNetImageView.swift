@@ -27,6 +27,7 @@ class GoNetImageView: UIImageView {
         clipsToBounds       = true
         image               = placeholderImage
         translatesAutoresizingMaskIntoConstraints = false
+        contentMode = .scaleAspectFit
     }
     
     // This method will let us download an Image for the movie
